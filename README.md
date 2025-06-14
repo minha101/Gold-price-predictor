@@ -1,2 +1,0 @@
-# Gold-price=predictor
- 

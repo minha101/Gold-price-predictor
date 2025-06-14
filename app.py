@@ -4,7 +4,7 @@ import pickle
 
 class GoldPricePredictorApp:
     def __init__(self):
-        self.model = self.load_model("C:/Users/Lenovo L380 A&I//OneDrive/Desktop/project/svm_gold_model.pkl")
+        self.model = self.load_model("svm_gold_model.pkl")
 
     def load_model(self, path):
         with open(path, 'rb') as file:
