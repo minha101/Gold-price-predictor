@@ -5,6 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 
+st.set_page_config(page_title="Gold Price Bivariate Analysis", layout="centered")
+
 # ====== Visualization Class =======
 class BivariateAnalysis:
     def __init__(self, data):
